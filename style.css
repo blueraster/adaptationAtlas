@@ -1,0 +1,149 @@
+/* CSS Document */
+
+body{
+margin: 0px;
+padding: 0px;
+background-color:#C3E4F7;
+background-image:url(images/page_bkgd.png);
+background-repeat:repeat-x;
+}
+
+body,table,td,div,span,p,a{
+	font-family:verdana;
+	font-size:10pt;
+	color:#663300;
+}
+a,a:visited{
+	color: #283890;
+	font-family: verdana;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+
+#container {
+	min-width: 991px;
+}
+
+form {
+padding: 0px;
+margin: 0px;
+
+}
+#header{
+width:100%;
+
+}
+
+#login{
+text-align:right;
+margin-top:15px;
+float:right;
+height:55px;
+width:235px;
+margin-right:30px;
+overflow:hidden;
+}
+
+.loginlink, a.loginlink, a.loginlink:visited{
+color:#2020FF;
+
+}
+
+#logo
+{
+margin-left:35px;
+margin-bottom:6px;
+float:left;
+height:90px;
+width:364px;
+}
+
+#navbar{
+clear:both;
+margin-top:10px;
+	height:23px;
+	width:100%;
+	background-image:url(images/navbar_bkgd.png);
+	background-repeat:repeat-x;
+}
+#mainnav{
+	margin-left:35px;
+	float:left;
+	height:23px;
+}
+#helpbutton{
+	float:right;
+	height:23px;
+	margin-right:3px;
+}
+
+#content{
+	margin: 20px auto 10px;
+	width: 991px;
+}
+
+
+.bar{
+background-color:#643A0D;
+color:#ffffff;
+padding:3px;
+}
+
+.notes{
+background-color:#ffff00;
+}
+
+.vsmall{
+	font-family:verdana;
+	font-size:8pt;
+}
+
+.themelink, a.themelink, a.themelink:visited{
+color:#666666;
+text-decoration:none;
+}
+
+ a.themelink:hover{
+color:#000000;
+}
+.footerlink, a.footerlink, a.footerlink:visited{
+color:#663300;
+text-decoration:none;
+}
+
+#footer{
+	/* border:green dotted 2px;*/
+	margin: 10px auto 5px auto;
+	width: 991px
+}
+ 
+#featuredMap{
+border:#888888 solid 4px;
+color:#ffffff;
+}
+#locationFinder{
+color:#000000;
+padding:5px;
+}
+img{
+/*background-color:#eeeeee;*/
+}
+
+
+input{
+	font-size:8pt;
+	}
+	
+.podHeaderStyle{
+background-color:#ff0000;	
+border:#00ff00 dotted 2px;
+font-weight:bold;	
+}	
+
+podBodyStyle{
+background-color:#ff0000;	
+border:#00ff00 dotted 2px;
+font-weight:bold;	
+}

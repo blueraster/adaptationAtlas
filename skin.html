@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Global Adaptation Atlas</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript" src="mm_code.js"></script>
+</head>
+<body>
+<div id="container">
+  <div id="header">
+    <div id="logo"><img src="images/logo.png" alt="Adaptation Atlas - Resources for the Future" width="364" height="90" /></div>
+    <div id="login"><a href="login.cfm" class="loginlink">Log in</a> | <a href="register.cfm" class="loginlink">Register</a><br />
+      <br />
+        <form action="search.cfm" method="post">
+		<input name="query" type="text" value="Search Website..." onfocus="this.value='';" style="width:150px;color:999999;">
+        <input type="submit" value="Go!" style="padding:0px 3px 0px 3px">
+      </form>
+    </div>
+  </div>
+  
+  <div id="navbar">
+    <div id="mainnav">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><a href="index.cfm"><img src="images/topnav/home_off.png" alt="Home" name="topnavhome" width="88" height="23" border="0" id="topnavhome" onmouseover="MM_swapImage('topnavhome','','images/topnav/home_on.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
+          <td><a href="myAtlas.cfm"><img src="images/topnav/atlas_off.png" alt="My Atlas" name="topnavatlas" width="110" height="23" border="0" id="topnavatlas" onmouseover="MM_swapImage('topnavatlas','','images/topnav/atlas_on.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
+          <td><a href="resources.cfm"><img src="images/topnav/resources_off.png" alt="resources" name="topnavresources" width="127" height="23" border="0" id="topnavresources" onmouseover="MM_swapImage('topnavresources','','images/topnav/resources_on.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
+          <td><a href="data.cfm"><img src="images/topnav/data_off.png" alt="Data" name="topnavdata" width="82" height="23" border="0" id="topnavdata" onmouseover="MM_swapImage('topnavdata','','images/topnav/data_on.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
+          <td><a href="map.cfm"><img src="images/topnav/map_off.png" alt="Map" name="topnavmap" width="77" height="23" border="0" id="topnavmap" onmouseover="MM_swapImage('topnavmap','','images/topnav/map_on.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
+          <td><a href="about.cfm"><img src="images/topnav/about_off.png" name="topnavabout" width="93" height="23" border="0" id="topnavabout" onmouseover="MM_swapImage('topnavabout','','images/topnav/about_on.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
+        </tr>
+      </table>
+    </div>
+    <div id="helpbutton"> <a href="help.cfm"><img src="images/topnav/help_off.png" alt="Help" name="topnavhelp" width="88" height="23" border="0" id="topnavhelp" onmouseover="MM_swapImage('topnavhelp','','images/topnav/help_on.png',1)" onmouseout="MM_swapImgRestore()" /></a></div>
+  </div>
+  
+  <div id="content" align="center"> <img src="images/homepage_header.jpg" width="991" height="96" /> <br />
+    <br />
+    <table width="100%" cellspacing="0" cellpadding="15" border="0">
+      <tr>
+        <td width="484" valign="top"><h3>Welcome to the Global Adaptation Atlas!</h3>
+          <p>The Adaptation Atlas is a dynamic mapping tool, developed by <a href="http://www.rff.org" target="_blank">Resources for the Future</a>, in collaboration with a diverse network of <a href="partners.cfm">partners</a>. </p>
+          <p>The Atlas brings together diverse sets of data on the human impacts of climate change and adaptation activities across the themes of food, water, land, health and livelihood to help researchers, policymakers, planners and citizens to establish priorities for action on adaptation.</p>
+          <p>If this is your first time on our site, please view our <a href="tutorial.cfm">tutorial</a> on how to use the application. Or, if you'd rather get your hands dirty &mdash; start with our <a href="map.cfm">map explorer</a> and our wizard will walk you through the process. You can also browse our entire collection of data in our <a href="data.cfm">data explorer</a>. </p>
+          <p>Sign up for a <a href="myAtlas.cfm">My Atlas</a> account &mdash; and start receiving updates on newly added impact data and activities. You can also freely download and upload your own data!</p>
+          <p>To learn more about the project and the team, visit the <a href="about.cfm">About Us</a> section. </p></td>
+        <td valign="top"><div id="featuredMap">
+            <div style="margin:3px;font-size:14pt;">Featured Map of the Day</div>
+            <a href="map.cfm?add-rest-parameters-here-to-jump-to-exact-map-state"><img src="images/maptmp.png" width="447" height="202" alt="Featured Map of the Day" border="0"></a>
+            <div id="locationFinder"> <strong>Explore Your Location</strong><br>
+              Enter a location you would like to explore: a place, region, or address.<br>
+              <form action="map.cfm">
+                <input name="location"  id="location" type="text" size="45">
+                <input type="submit" value="Go">
+              </form>
+            </div>
+          </div></td>
+      </tr>
+    </table>
+	<table width="100%" border="0" cellpadding="0" cellspacing="10" style="margin-top:10px;">
+		<tr>
+			<td width="20%"><div align="center"><img width="40" height="40" border="0" src="images/themes/FOOD.png" alt="FOOD Icon" /></div></td>
+			<td width="20%"><div align="center"><img width="40" height="40" border="0" src="images/themes/HEALTH.png" alt="HEALTH Icon" /></div></td>	
+			<td width="20%"><div align="center"><img width="40" height="40" border="0" src="images/themes/LIVELIHOOD.png" alt="LIVELIHOOD Icon" /></div></td>	
+			<td width="20%"><div align="center"><img width="40" height="40" border="0" src="images/themes/WATER.png" alt="WATER Icon" /></div></td>
+			<td width="20%"><div align="center"><img width="40" height="40" border="0" src="images/themes/LAND.png" alt="LAND Icon" /></div></td>
+		</tr>
+		<tr>
+			<td><div align="center"><a href="activityDetail.cfm?id=2485" title="Formation of Water User Associations and River Namwi Catchments for Sustainable Irrigation" style="text-decoration:none"  class="themelink"> Formation of Water User Associations&hellip; </a></div></td>
+			<td><div align="center"><span class="vsmall"><a href="activityDetail.cfm?id=2368" title="Capacity Development and Adaptation to Climate Change on Human Health Vulnerability" style="text-decoration:none"  class="themelink">Capacity Development and Adaptation&hellip;</a></span></div></td>	
+			<td><div align="center"><span class="vsmall"><a href="activityDetail.cfm?id=2467" title="Enhancing Adaptive Capacity in Semi-Arid Mountainous Regions" style="text-decoration:none"  class="themelink"> Enhancing Adaptive Capacity in Semi-Arid&hellip; </a></span></div></td>	
+			<td><div align="center"><span class="vsmall"><a href="activityDetail.cfm?id=2470" title="Restoration of the Lepa Village Natural Spring and Development of a Water Catchment for Village Drinking Water" style="text-decoration:none"  class="themelink"> Restoration of the Lepa Village Natural&hellip; </a></span></div></td>
+			<td><div align="center"><span class="vsmall"><a href="activityDetail.cfm?id=2523" title="Rio de Janeiro's Community Reforestation Project" style="text-decoration:none"  class="themelink"> Rio de Janeiro's Community Reforestation&hellip; </a></span></div></td>
+		</tr>
+		</table>						
+  </div>
+  <div id="footer">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        <td width="25%" align="center"><a href="#" class="footerlink">RESOURCE FOR THE FUTURE </a></td>
+        <td width="25%" align="center"><a href="mailto:email@rff.org" class="footerlink">EMAIL@RFF.ORG</a></td>
+        <td width="25%" align="center"><a href="#" class="footerlink">CONTACT US </a></td>
+        <td width="25%" align="center"><a href="#" class="footerlink">SITE MAP </a></td>
+      </tr>
+    </table>
+  </div>
+</div>
+</body>
+</html>

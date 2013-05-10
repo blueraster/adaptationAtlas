@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<data_type>remote</data_type>
+	<mapserver_url>http://adaptationatlas.org/TestInstance/rest/services/AdaptationAtlasServices/Current/MapServer</mapserver_url>
+	<dynamic_layer_base_url>config/dynamic_json.txt</dynamic_layer_base_url>
+
+	<country_lookup_url>http://adaptationatlas.org/TestInstance/rest/services/AdaptationAtlasServices/World_Reference_Map/MapServer/18</country_lookup_url>
+	<country_lookup_code_field>ISO_3DIGIT</country_lookup_code_field><!-- Options: FIPS_CNTRY GMI_CNTRY ISO_2DIGIT ISO_3DIGIT -->
+	
+	<legend_images_folder>http://adaptationatlas.blueraster.net/legends/</legend_images_folder>
+
+	<color_food>0x5f7754</color_food>
+	<color_land>0xae6846</color_land>
+	<color_water>0x4a6f8b</color_water>
+	<color_health>0xa74a4a</color_health>
+	<color_livelihood>0x59b02a</color_livelihood>
+	
+	<flash_remoting_destination>ColdFusion</flash_remoting_destination>
+	<flash_remoting_source_getdata>org.rff.atlas.remote.Data</flash_remoting_source_getdata>
+	<flash_remoting_source_user>org.rff.atlas.remote.User</flash_remoting_source_user>	
+	<flash_remoting_source_admin>org.rff.atlas.remote.Admin</flash_remoting_source_admin>
+	
+	<flash_remoting_gateway>http://adaptationatlas.blueraster.net/flex2gateway/</flash_remoting_gateway>
+	<services>
+	  <service id="coldfusion-flashremoting-service">
+	    <destination id="ColdFusion">
+	      <channels>
+	        <channel ref="my-cfamf"/>
+	      </channels>
+	    </destination>
+	  </service>
+	  <channels>
+
+	    <channel id="my-cfamf" type="mx.messaging.channels.AMFChannel">
+	      <endpoint uri="http://adaptationatlas.blueraster.net/flex2gateway/"/>
+	      <properties>
+	        <polling-enabled>false</polling-enabled>
+	      </properties>
+	    </channel>
+	  </channels>
+	</services>
+</items>

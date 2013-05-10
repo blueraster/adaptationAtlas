@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<most_used_wkid>4326</most_used_wkid>
+	<default_map_extent>
+		<xmin>-16906648</xmin>
+		<ymin>-7905413</ymin>
+		<xmax>17728497</xmax>
+		<ymax>19372183</ymax>
+		<xcenter></xcenter>
+		<ycenter></ycenter>>
+		<zoomlevel>18</zoomlevel>
+		<wkid>102113</wkid>
+	</default_map_extent>
+</items>

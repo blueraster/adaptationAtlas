@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<basemaps>
+	<basemap default="true">
+		<name>WorldBackground</name>
+		<key>world_background</key>
+		<url>http://adaptationatlas.org/TestInstance/rest/services/AdaptationAtlasServices/World_Background_Map/MapServer</url>
+	</basemap>
+	<basemap>
+		<name>WorldReference</name>
+		<key>world_reference</key>
+		<url>hhttp://adaptationatlas.org/TestInstance/rest/services/AdaptationAtlasServices/World_Reference_Map/MapServer</url>
+	</basemap>
+</basemaps>
